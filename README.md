@@ -1,9 +1,12 @@
 # Predicting Loan Defaults: A Machine Learning Approach
-Introduction
+1. Introduction
 In the dynamic world of finance, accurately predicting loan defaults is paramount. It directly impacts risk management and informs crucial lending decisions. This project dives into a machine learning methodology to tackle this challenge, leveraging historical loan data to build a model capable of classifying loan applications as ‘Good’ (non-default) or ‘Bad’ (default).
 
 2. Data Loading and Initial Exploration
-
+Data sets:
+A. "https://raw.githubusercontent.com/Oyeniran20/axia_cohort_8/refs/heads/main/trainperf.csv"
+B. "https://raw.githubusercontent.com/Oyeniran20/axia_cohort_8/refs/heads/main/trainperf.csv"
+C. "https://raw.githubusercontent.com/Oyeniran20/axia_cohort_8/refs/heads/main/traindemographics.csv"
 Our journey began by loading three datasets. These datasets contained vital loan performance information, including ‘customerid’, ‘systemloanid’, ‘loannumber’, ‘approveddate’, ‘creationdate’, ‘loanamount’, ‘totaldue’, ‘termdays’, ‘referredby’, and our target variable, ‘good_bad_flag’. We noted missing values primarily in the ‘referredby’ column.
 
 Complementing this, the traindemographics.csv dataset offered demographic details such as ‘customerid’, ‘birthdate’, ‘bank_account_type’, ‘longitude_gps’, ‘latitude_gps’, ‘bank_name_clients’, ‘bank_branch_clients’, ‘employment_status_clients’, and ‘level_of_education_clients’.
